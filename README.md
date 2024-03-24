@@ -1,6 +1,6 @@
 <h1 align="center">Quokka</h1>
 
-A cross-platform random wallpaper app, where pictures are fetched from Unsplash.
+A mininal cross-platform random wallpaper app, where pictures are fetched from Unsplash.
 
 ## Tools
 
