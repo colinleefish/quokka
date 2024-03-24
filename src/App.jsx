@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { invoke } from "@tauri-apps/api/tauri";
-import "./App.css";
+import SettingsPage from './components/SettingsPage';
 
 function App() {
   const [greetMsg, setGreetMsg] = useState("");
@@ -12,9 +12,7 @@ function App() {
   }
 
   return (
-    <h1 className="text-sm font-bold underline text-fuchsia-600">
-      Hello world!
-    </h1>
+    <SettingsPage />
   );
 }
 
